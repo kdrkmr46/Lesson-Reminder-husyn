@@ -1,11 +1,10 @@
-import Header from "./Header";
-import Main from "./Main/Main";
-
+import Header from "./compenent/Header";
+import main from "./compenent/main";
 function App() {
   return (
     <>
       <Header />
-      <Main />
+      <main />
     </>
   );
 }
