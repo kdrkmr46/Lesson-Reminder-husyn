@@ -1,11 +1,11 @@
-
+import Card from "./Card";
 
 const main = () => {
   return (
-   <div className="container">
-    
-   </div>
-  )
-}
+    <div className="container">
+      <Card />
+    </div>
+  );
+};
 
-export default main
+export default main;

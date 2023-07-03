@@ -1,9 +1,9 @@
-import DATA from "../data/data";
+import { data } from "../data/data";
 
 const Card = () => {
   return (
     <div className="row">
-      {DATA.map((item) => {
+      {data.map((item) => {
         const { id, image, name, hour } = item;
         return (
           <div className="lesson_lesson col col-md-6 col-lg-4" key={id}>
